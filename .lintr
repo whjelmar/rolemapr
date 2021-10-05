@@ -1,0 +1,6 @@
+linters: with_defaults(
+  snake_case_linter = NULL,   # prefer snake case for readability
+  line_length_linter(120),
+  pipe_continuation_linter
+ )
+

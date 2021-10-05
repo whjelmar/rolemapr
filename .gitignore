@@ -1,0 +1,161 @@
+# History files
+.Rhistory
+.Rapp.history
+.Rproj.user
+
+# Session Data files
+.RData
+
+# User-specific files
+.Ruserdata
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# R Environment Variables
+.Renviron
+
+#  data directory
+/data/
+data/
+
+#  output directory
+/out/
+out/
+
+#  tmp directory
+/tmp/
+tmp/
+
+# NPM #
+#######
+# Ignore all directories called node_modules in current folder and any subfolders.
+node_modules/
+/node_modules/
+
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.bz2
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.tgz
+*.map
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.env
+
+# OS generated files #
+######################
+**.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+._*
+
+# Vim generated files #
+######################
+*.un~
+
+# SASS #
+########
+**/.sass-cache
+**/.sass-cache/*
+**/.map
+sassdoc/
+/sassdoc/
+/style.css
+
+# Composer #
+############
+!assets/js/vendor/
+wpcs/
+/vendor/
+
+# Bower #
+##########
+assets/bower_components/*
+
+# Codekit #
+##########
+/codekit-config.json
+*.codekit
+**.codekit-cache/*
+
+# Compiled Files and Build Dirs #
+#################################
+/README.html
+
+# PhpStrom Project Files #
+.idea/
+library/vendors/composer
+assets/img/.DS_Store
+
+# Temp Directories #
+####################
+# Ignore all directories called node_modules in current folder and any subfolders.
+tmp/
+/tmp/
+temp/
+/temp/
+.DS_Store
+
+# Backstop Reference Files #
+############################
+backstop_data
+
+
+# Dist Directory -- should just contain generated files #
+#########################################################
+/dist/
+dist/
+
+
+# Generated CSS files #
+#######################
+/assets/styles/css/*.css
+assets/styles/css/*.css
+
+# Dart #
+########
+pubspec.lock
+
+#  Confidential Information  #
+##############################
+secrets.json
+.ftppass
+.httr-oauth
+
+
