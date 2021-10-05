@@ -188,15 +188,19 @@ If you have any feedback, please reach out to us at walter@hjelmar.com
 See [`FAQ.md`](https://github.com/whjelmar/<<package_name>>/FAQ.md)
 
 
+### Roadmap
+
+See [`ROADMAP.md`](https://github.com/whjelmar/<<package_name>>/ROADMAP.md)
+
+
 ### Lessions
 
 See [`LESSIONS.md`](https://github.com/whjelmar/<<package_name>>/LESSIONS.md)
 
 
-## Roadmap
+### Ethics
 
-See [`ROADMAP.md`](https://github.com/whjelmar/<<package_name>>/ROADMAP.md)
-
+See [`ETHICS.md`](https://github.com/whjelmar/<<package_name>>/ETHICS.md)
 
 
 ## Tech Stack
