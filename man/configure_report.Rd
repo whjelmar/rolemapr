@@ -5,22 +5,34 @@
 \title{Configure report template}
 \usage{
 configure_report(
-  add_introduce = TRUE,
-  add_plot_intro = TRUE,
-  introduce_args = list(),
-  plot_intro_args = list(),
+  add_introduction = TRUE,
+  add_plot_introduction = TRUE,
+  introduction_args = list(),
+  plot_introduction_args = list(),
+  add_summary = TRUE,
+  add_plot_summary = TRUE,
+  summary_args = list(),
+  plot_summary_args = list(),
   global_ggtheme = quote(theme_gray()),
   global_theme_config = list()
 )
 }
 \arguments{
-\item{add_introduce}{add \link{introduce}? Default is \code{TRUE}.}
+\item{add_introduction}{add \link{introduction}? Default is \code{TRUE}.}
 
-\item{add_plot_intro}{add \link{plot_intro}? Default is \code{TRUE}.}
+\item{add_plot_introduction}{add \link{plot_introduction}? Default is \code{TRUE}.}
 
-\item{introduce_args}{arguments to be passed to \link{introduce}. Default is \code{list()}.}
+\item{introduction_args}{arguments to be passed to \link{introduction}. Default is \code{list()}.}
 
-\item{plot_intro_args}{arguments to be passed to \link{plot_intro}. Default is \code{list()}.}
+\item{plot_introduction_args}{arguments to be passed to \link{plot_introduction}. Default is \code{list()}.}
+
+\item{add_summary}{add \link{summary}? Default is \code{TRUE}.}
+
+\item{add_plot_summary}{add \link{plot_summary}? Default is \code{TRUE}.}
+
+\item{summary_args}{arguments to be passed to \link{summary}. Default is \code{list()}.}
+
+\item{plot_summary_args}{arguments to be passed to \link{plot_summary}. Default is \code{list()}.}
 
 \item{global_ggtheme}{global setting for \link{theme}. Default is \code{quote(theme_gray())}.}
 
@@ -30,7 +42,7 @@ configure_report(
 This function configures the content of the to-be-generated data profiling report.
 }
 \note{
-Individual settings will overwrite global settings. For example: if \code{plot_intro_args} has \code{ggtheme} set to \code{theme_light()} while \code{global_ggtheme} is set to \code{theme_gray()}, \code{theme_light()} will be used.
+Individual settings will overwrite global settings. For example: if \code{plot_introduction_args} has \code{ggtheme} set to \code{theme_light()} while \code{global_ggtheme} is set to \code{theme_gray()}, \code{theme_light()} will be used.
 
 When setting global themes using \code{global_ggtheme}, please pass an unevaluated call to the theme function, e.g., \code{quote(theme_light())}.
 }

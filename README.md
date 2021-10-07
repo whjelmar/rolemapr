@@ -1,211 +1,172 @@
-[![Code Coverage Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](https://codecov.io/github/whjelmar/<<package_name>>?branch=main)
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+[![Code Coverage
+Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](https://codecov.io/github/whjelmar/rolemapr?branch=main)
 [![lifecycle](https://img.shields.io/badge/lifecycle-EXPERIMENTAL-orange)](https://www.tidyverse.org/lifecycle/#experimental)
-[![lifecycle](https://img.shields.io/github/issues/whjelmar/rolemapr)](https://img.shields.io/github/issues/whjelmar/<<package_name>>)
+[![lifecycle](https://img.shields.io/github/issues/whjelmar/rolemapr)](https://img.shields.io/github/issues/whjelmar/rolemapr)
 
-# <<project_name>>
+# rolemapr
 
-<<project_title>>
+&lt;<project_title>&gt;
 
-
-![Logo](https://github.com/whjelmar/<<package_name>>/logo.png)
-
+![Logo](https://github.com/whjelmar/rolemapr/logo.png)
 
 ## Installation
 
-Install my-project with npm
+Eventually this package may make it to CRAN, but right now follow the
+latest stable version or the development instructions below.
 
-```bash
-  npm install my-project
-  cd my-project
+When it is available, it can be installed directly from CRAN.
+
+``` r
+install.packages("rolemapr")
 ```
-    
+
+However, the latest stable version (if any) could be found on
+[GitHub](https://github.com/whjelmar/rolemapr), and installed using
+`devtools` package.
+
+``` r
+if (!require(devtools)) install.packages("devtools")
+devtools::install_github("whjelmar/rolemapr")
+```
+
+If you would like to install the latest [development
+version](https://github.com/whjelmar/rolemapr/tree/develop), you may
+install the develop branch.
+
+``` r
+if (!require(devtools)) install.packages("devtools")
+devtools::install_github("whjelmar/rolemapr", ref = "develop")
+```
+
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
+TODO
 
-function App() {
-  return <Component />
-}
-```
-
-  
 ## Screenshots
 
-![App Screenshot](https://github.com/whjelmar/screenshots/<<package_name>>.png)
+![App Screenshot](https://github.com/whjelmar/screenshots/rolemapr.png)
 
-  
 ## Demo
 
 Insert link to demo
 
-  
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
+-   blah
+-   blah
+-   blah
 
-  
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/whjelmar/<<package_name>> my-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
-
-  
 ## Running Tests
 
 To run tests, run the following command
 
-```bash
-  npm run test
+``` r
+devtools::test()
 ```
 
-  
 ## Environment Variables
 
-To run this project, you will need to add the following environment variables to your .env file
+To run this project, you will need to add the following environment
+variables to your .env file
 
 `API_KEY`
 
 `ANOTHER_API_KEY`
 
-  
 ## API Reference
 
 #### Get all items
 
-```http
+``` http
   GET /api/items
 ```
 
 | Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
+|:----------|:---------|:---------------------------|
 | `api_key` | `string` | **Required**. Your API key |
 
 #### Get item
 
-```http
+``` http
   GET /api/items/${id}
 ```
 
 | Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
+|:----------|:---------|:----------------------------------|
 | `id`      | `string` | **Required**. Id of item to fetch |
 
 #### add(num1, num2)
 
 Takes two numbers and returns the sum.
 
-  ## Color Reference
+\#\# Color Reference
 
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-| Example Color | ![#00b48a](https://via.placeholder.com/10/00b48a?text=+) #00b48a |
-| Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
+| Color         | Hex                                                                |
+|---------------|--------------------------------------------------------------------|
+| Example Color | ![\#0a192f](https://via.placeholder.com/10/0a192f?text=+) \#0a192f |
+| Example Color | ![\#f8f8f8](https://via.placeholder.com/10/f8f8f8?text=+) \#f8f8f8 |
+| Example Color | ![\#00b48a](https://via.placeholder.com/10/00b48a?text=+) \#00b48a |
+| Example Color | ![\#00d1a0](https://via.placeholder.com/10/00b48a?text=+) \#00d1a0 |
 
-
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-  
 ## Documentation
 
-[Documentation](https://<<package_name>>.github.io/)
+[Documentation](https://rolemapr.github.io/)
 
-  
 ## License
 
-[See License.MD](https://github.com/whjelmar/<<package_name>>/LICENSE.md)
+[See License.MD](https://github.com/whjelmar/rolemapr/LICENSE.md)
 
-  
 ## Authors
 
-- [@whjelmar](https://www.github.com/whjelmar)
+-   (**whjelmar?**)(<https://www.github.com/whjelmar>)
 
-  
 ## Contributing
 
 Contributions are always welcome!
 
 See `CONTRIBUTING.md` for ways to get started.
 
-Please adhere to this project's [`code of conduct`](https://github.com/whjelmar/<<package_name>>/CONTRIBUTING.md).
+Please adhere to this project’s
+[`code of conduct`](https://github.com/whjelmar/rolemapr/CONTRIBUTING.md).
 
-  
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
-
-
+-   [DataExplorer](https://github.com/boxuancui/DataExplorer) which was
+    the inspiration for the structure of the package and the genesis of
+    some of the code.
+-   [Awesome Readme
+    Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+-   [Awesome README](https://github.com/matiassingers/awesome-readme)
+-   [How to write a Good
+    readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## Support
 
-For support, email walter@hjelmar.com or join our Slack channel.
-
+For support, email <walter@hjelmar.com> or join our Slack channel.
 
 ## Feedback
 
-If you have any feedback, please reach out to us at walter@hjelmar.com
-
+If you have any feedback, please reach out to us at <walter@hjelmar.com>
 
 ## Appendix
 
-
 ### FAQ
 
-See [`FAQ.md`](https://github.com/whjelmar/<<package_name>>/FAQ.md)
-
-
-### Roadmap
-
-See [`ROADMAP.md`](https://github.com/whjelmar/<<package_name>>/ROADMAP.md)
-
+See [`FAQ.md`](https://github.com/whjelmar/rolemapr/FAQ.md)
 
 ### Lessions
 
-See [`LESSIONS.md`](https://github.com/whjelmar/<<package_name>>/LESSIONS.md)
+See [`LESSIONS.md`](https://github.com/whjelmar/rolemapr/LESSIONS.md)
 
+## Roadmap
 
-### Ethics
-
-See [`ETHICS.md`](https://github.com/whjelmar/<<package_name>>/ETHICS.md)
-
+See [`ROADMAP.md`](https://github.com/whjelmar/rolemapr/ROADMAP.md)
 
 ## Tech Stack
 
-**Client:** R, TODO
+**Client:** TODO
 
 **Server:** TODO
-

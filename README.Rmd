@@ -4,53 +4,69 @@ bibliography: "references.bib"
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  eval = FALSE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
+```{r setup, echo = FALSE, include=FALSE}
+library(rolemapr)
 library(knitr)
+library(ggplot2)
+
+set.seed(42)
+
+knitr::opts_chunk$set(
+	eval = FALSE,
+  collapse = TRUE,
+  comment = "#>",
+	out.width = "100%",
+  fig.path = "man/figures/README-"
+)
 ```
 
-[![Code Coverage Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](https://codecov.io/github/whjelmar/<<package_name>>?branch=main)
-[![lifecycle](https://img.shields.io/badge/lifecycle-EXPERIMENTAL-orange)](https://www.tidyverse.org/lifecycle/#experimental)
-[![lifecycle](https://img.shields.io/github/issues/whjelmar/rolemapr)](https://img.shields.io/github/issues/whjelmar/<<package_name>>)
 
-# <<project_name>>
+[![Code Coverage Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](https://codecov.io/github/whjelmar/rolemapr?branch=main)
+[![lifecycle](https://img.shields.io/badge/lifecycle-EXPERIMENTAL-orange)](https://www.tidyverse.org/lifecycle/#experimental)
+[![lifecycle](https://img.shields.io/github/issues/whjelmar/rolemapr)](https://img.shields.io/github/issues/whjelmar/rolemapr)
+
+# rolemapr
 
 <<project_title>>
 
 
-![Logo](https://github.com/whjelmar/<<package_name>>/logo.png)
-
+![Logo](https://github.com/whjelmar/rolemapr/logo.png)
 
 ## Installation
 
-Install my-project with npm
+Eventually this package may make it to CRAN, but right now follow the latest 
+stable version or the development instructions below.
 
-```bash
-  npm install my-project
-  cd my-project
+When it is available, it can be installed directly from CRAN.
+
+```{r install-cran}
+install.packages("rolemapr")
+```
+
+However, the latest stable version (if any) could be found on [GitHub](https://github.com/whjelmar/rolemapr), and installed using `devtools` package.
+
+```{r install-github}
+if (!require(devtools)) install.packages("devtools")
+devtools::install_github("whjelmar/rolemapr")
+```
+
+If you would like to install the latest [development version](https://github.com/whjelmar/rolemapr/tree/develop), you may install the develop branch.
+
+```{r install-github-develop}
+if (!require(devtools)) install.packages("devtools")
+devtools::install_github("whjelmar/rolemapr", ref = "develop")
 ```
     
 ## Usage/Examples
 
-```javascript
-import Component from 'my-project'
-
-function App() {
-  return <Component />
-}
 ```
+```
+TODO 
 
   
 ## Screenshots
 
-![App Screenshot](https://github.com/whjelmar/screenshots/<<package_name>>.png)
+![App Screenshot](https://github.com/whjelmar/screenshots/rolemapr.png)
 
   
 ## Demo
@@ -60,45 +76,17 @@ Insert link to demo
   
 ## Features
 
-- Light/dark mode toggle
-- Live previews
-- Fullscreen mode
-- Cross platform
-
-  
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/whjelmar/<<package_name>> my-project
-```
-
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-
-Start the server
-
-```bash
-  npm run start
-```
+- blah
+- blah
+- blah
 
   
 ## Running Tests
 
 To run tests, run the following command
 
-```bash
-  npm run test
+```{r run-tests}
+devtools::test()
 ```
 
   
@@ -147,23 +135,14 @@ Takes two numbers and returns the sum.
 | Example Color | ![#00d1a0](https://via.placeholder.com/10/00b48a?text=+) #00d1a0 |
 
 
-## Deployment
-
-To deploy this project run
-
-```bash
-  npm run deploy
-```
-
-  
 ## Documentation
 
-[Documentation](https://<<package_name>>.github.io/)
+[Documentation](https://rolemapr.github.io/)
 
   
 ## License
 
-[See License.MD](https://github.com/whjelmar/<<package_name>>/LICENSE.md)
+[See License.MD](https://github.com/whjelmar/rolemapr/LICENSE.md)
 
   
 ## Authors
@@ -177,11 +156,14 @@ Contributions are always welcome!
 
 See `CONTRIBUTING.md` for ways to get started.
 
-Please adhere to this project's [`code of conduct`](https://github.com/whjelmar/<<package_name>>/CONTRIBUTING.md).
+Please adhere to this project's [`code of conduct`](https://github.com/whjelmar/rolemapr/CONTRIBUTING.md).
 
   
 ## Acknowledgements
 
+ - [DataExplorer](https://github.com/boxuancui/DataExplorer) which was the 
+ inspiration for the structure of the package and the genesis of some of the 
+ code.
  - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
  - [Awesome README](https://github.com/matiassingers/awesome-readme)
  - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
@@ -203,23 +185,23 @@ If you have any feedback, please reach out to us at walter@hjelmar.com
 
 ### FAQ
 
-See [`FAQ.md`](https://github.com/whjelmar/<<package_name>>/FAQ.md)
+See [`FAQ.md`](https://github.com/whjelmar/rolemapr/FAQ.md)
 
 
 ### Lessions
 
-See [`LESSIONS.md`](https://github.com/whjelmar/<<package_name>>/LESSIONS.md)
+See [`LESSIONS.md`](https://github.com/whjelmar/rolemapr/LESSIONS.md)
 
 
 ## Roadmap
 
-See [`ROADMAP.md`](https://github.com/whjelmar/<<package_name>>/ROADMAP.md)
+See [`ROADMAP.md`](https://github.com/whjelmar/rolemapr/ROADMAP.md)
 
 
 
 ## Tech Stack
 
-**Client:** R, TODO
+**Client:** TODO
 
 **Server:** TODO
 

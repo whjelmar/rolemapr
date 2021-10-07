@@ -33,3 +33,10 @@ test_that("test local theme overwrite", {
   }
 })
 
+test_that("test local theme_config", {
+  config <- configure_report(
+    plot_introduction_args = list(theme_config = quote(theme_dark()))
+  )
+  expect_identical(config$plot_introduction$theme_config, quote(theme_dark()))
+})
+
