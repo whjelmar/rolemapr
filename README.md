@@ -8,7 +8,8 @@ Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](
 
 # rolemapr
 
-&lt;<project_title>&gt;
+A package to create a series of documents that detail the roles and
+responsibilities at play within a Target Operating Model
 
 ![Logo](https://github.com/whjelmar/rolemapr/logo.png)
 
@@ -102,7 +103,7 @@ variables to your .env file
 
 Takes two numbers and returns the sum.
 
-\#\# Color Reference
+\## Color Reference
 
 | Color         | Hex                                                                |
 |---------------|--------------------------------------------------------------------|
@@ -121,7 +122,7 @@ Takes two numbers and returns the sum.
 
 ## Authors
 
--   (**whjelmar?**)(<https://www.github.com/whjelmar>)
+-   [(**whjelmar?**)](https://www.github.com/whjelmar)
 
 ## Contributing
 

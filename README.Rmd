@@ -27,7 +27,7 @@ knitr::opts_chunk$set(
 
 # rolemapr
 
-<<project_title>>
+A package to create a series of documents that detail the roles and responsibilities at play within a Target Operating Model
 
 
 ![Logo](https://github.com/whjelmar/rolemapr/logo.png)
