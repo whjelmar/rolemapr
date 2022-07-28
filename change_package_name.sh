@@ -1,5 +1,4 @@
 #!/bin/bash
-
 read -p 'What would you like to name this new package? ' package_name
 read -p 'Can you give a 1 sentence description of the purpose for the package? ' package_title
 
