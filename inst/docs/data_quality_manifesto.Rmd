@@ -1,0 +1,91 @@
+---
+title: "Data Quality Check Manifesto"
+author: "Walter Hjelmar"
+date: "3/26/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Configuration
+
+
+
+# Data quality checks (**Reminder to add throughout**)
+
+### Currency
+
+The degree to which information is current with the world that it models.  This attribute of data quality measures the time between you expecting the data and the moment you can use it. 
+
+Examples of timeliness metrics:
+  - Time variance - time  elapsed  since  data  was  extracted  from the  source  (the  difference  between  query  time and extraction time
+  - Data time-to-value
+  - Obsolescence - number  of  updates  transactions/operations to a source since the data extraction time
+  - Freshness rate - percentage of tuples in the view that are up-to-date  (have  not  been  updated  since  extraction time)
+
+### Validity
+
+Checking whether your data complies with the required value attributes. Does it conform to critical rules? For instance, making sure the day, month, and year numbers are in the same format. 
+
+Examples of validity metrics:
+
+  - Percentage of data records where all values are in the required format
+
+### Accuracy
+
+This measures how accurately your data corresponds to reality. The accuracy metric is highly important if you’re working in finance. In this case, there’s simply no room for interpretation: the numbers are either accurate or not. Also, accuracy is extremely important for large organizations with high penalties for failure. 
+
+Examples of accuracy metrics: 
+
+  - Ratio of data to errors
+  - Deviation
+
+### Completeness
+
+This is designed to measure if all the necessary data is found in a precise dataset. And, it indicates whether there’s enough information to come up with conclusions. 
+
+Examples of completeness metrics: 
+
+  - Number of empty values
+  - Percentage of data records that contain all needed information
+
+### Consistency
+
+This measures that there are no contradictions in your data set. In its most basic form, consistency refers to data values in one data set being consistent with values in another data set.
+
+Examples of consistency metrics: 
+
+  - Number & percentage of inconsistencies
+  - Range
+  - Variance
+  - Standard deviation
+
+### Uniqueness
+
+This insure that will be recorded no more than once. This doesn’t mean you can’t use the same data point in multiple ways—such as a quarterly revenue number appearing in both a sales and leadership report—but more that there aren’t erroneous duplicates. For example, the same initiative can’t be listed twice under a goal. Tracking this metric helps organizations identify and avoid double data entry.
+
+Examples of uniqueness metrics:
+
+  - Number & percentage of repeated values
+
+### Integrity
+
+This helps to make sure your data remains the same as it travels between multiple systems: storing data in separate systems may negatively affect integrity. The goal is to make sure there are no accidents and data errors. 
+
+Examples of integrity metrics:
+
+  - Data transformation error rate
+
+  
+### Auditability
+
+The data is accessible and changes are traceable. Can you drill down into your data and see a history of updates? Determining quality with regard to this metric means tracking the percentage of fields where you cannot determine what and when edits were made, and by whom. 
+
+Examples of auditability metrics:
+
+  - Percentage of gaps in the data set
+  - Percentage of altered data
+  - Percentage of disassociated data
+  - Percentage of untraceable data
