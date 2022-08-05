@@ -1,10 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+<!-- badges: start -->
 
 [![Code Coverage
 Status](https://codecov.io/gh/whjelmar/rolemapr/branch/master/graph/badge.svg)](https://codecov.io/github/whjelmar/rolemapr?branch=main)
 [![lifecycle](https://img.shields.io/badge/lifecycle-EXPERIMENTAL-orange)](https://www.tidyverse.org/lifecycle/#experimental)
 [![lifecycle](https://img.shields.io/github/issues/whjelmar/rolemapr)](https://img.shields.io/github/issues/whjelmar/rolemapr)
+<!-- badges: end -->
 
 # rolemapr
 
