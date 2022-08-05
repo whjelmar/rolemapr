@@ -1,0 +1,10 @@
+pandoc: 2.14.2
+pkgdown: 2.0.6
+pkgdown_sha: ~
+articles:
+  introduction: introduction.html
+last_built: 2022-08-05T03:27Z
+urls:
+  reference: https://whjelmar.github.io/rolemapr/reference
+  article: https://whjelmar.github.io/rolemapr/articles
+
