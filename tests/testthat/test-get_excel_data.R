@@ -20,4 +20,3 @@ test_that("get_excel_data handles arguments well", {
   expect_equal(data$templates, "OnePPM - Risk Log")
   expect_equal(data$pract, "Measure Solution Performance 1-Min Need-to-Know\r\nAnalyze Performance Measures 1-Min Need-to-Know\r\nAssess Solution Limitations 1-Min Need-to-Know\r\nAssess Enterprise Limitations 1-Min Need-to-Know\r\nRecommend Actions to Increase Solution Value")
 })
-

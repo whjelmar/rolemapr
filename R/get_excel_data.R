@@ -21,6 +21,5 @@
 #' @importFrom readxl read_excel
 
 get_excel_data <- function(file, sheet_name = "Sheet1", skip_rows = 0) {
-  readxl::read_excel(file, sheet = {{sheet_name}},skip = {{skip_rows}})
+  readxl::read_excel(file, sheet = {{ sheet_name }}, skip = {{ skip_rows }})
 }
-

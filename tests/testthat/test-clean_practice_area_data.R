@@ -4,6 +4,6 @@ test_that("count_fields gives an appropriate set of groups", {
 
   clean_data <- clean_practice_area_data(data)
 
-  expect_false(grepl('\r\n', clean_data$pract))
-  expect_true(grepl('<br>', clean_data$pract))
+  expect_false(grepl("\r\n", clean_data$pract))
+  expect_true(grepl("<br>", clean_data$pract))
 })

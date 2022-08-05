@@ -43,9 +43,10 @@
 #' diamonds2 <- tibble(diamonds)
 #' for (j in 5:ncol(diamonds2)) {
 #'   set(diamonds2,
-#'       i = sample.int(nrow(diamonds2), sample.int(nrow(diamonds2), 1)),
-#'       j,
-#'       value = NA_integer_)
+#'     i = sample.int(nrow(diamonds2), sample.int(nrow(diamonds2), 1)),
+#'     j,
+#'     value = NA_integer_
+#'   )
 #' }
 #'
 #' # Create customized report for diamonds2 dataset
@@ -86,7 +87,7 @@
 #'   "plot_scatterplot" = list(sampled_rows = 1000L)
 #' )
 #' }
-
+#'
 create_report <- function(data,
                           output_format = html_document(toc = TRUE, toc_depth = 6, theme = "yeti"),
                           output_file = "report.html",

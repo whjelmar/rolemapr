@@ -14,9 +14,10 @@
 #'
 #' @examples
 #' counts_fields(practice_data, practice_area)
-
+#'
 counts_fields <- function(data, field_name) {
   f <- enquo(field_name)
-  data %>% dplyr::group_by(practice_area) %>% dplyr::count()
+  data %>%
+    dplyr::group_by(practice_area) %>%
+    dplyr::count()
 }
-
