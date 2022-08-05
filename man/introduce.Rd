@@ -26,8 +26,4 @@ Describe basic information in input data class:
 \description{
 Describe basic information for input data.
 }
-\examples{
-introduce(data_governance_raci)
-
-}
 \keyword{introduce}

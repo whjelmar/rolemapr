@@ -25,7 +25,3 @@ may not need to exist anymore, but it is left for heritage purposes.
 \details{
 Retrieve the data stored in an Excel file
 }
-\examples{
-get_excel_data("data/sample_target_operating_model.xlsx", "Practices Areas", 2)
-get_excel_data("data/sample_target_operating_model.xlsx", "Practices Areas")
-}
