@@ -10,7 +10,10 @@ URL: https://github.com/whjelmar/rolemapr,
     https://whjelmar.github.io/rolemapr/
 BugReports: https://github.com/whjelmar/rolemapr/issues
 Imports: 
+    cli,
     dplyr,
+    glue,
+    lifecycle,
     magrittr,
     readxl,
     rlang,
@@ -18,7 +21,8 @@ Imports:
     stats,
     stringr,
     tibble,
-    tidyr
+    tidyr,
+    withr
 Suggests: 
     covr,
     ggplot2,
