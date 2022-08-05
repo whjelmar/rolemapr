@@ -33,3 +33,5 @@ Imports:
     rmarkdown,
     tibble
 Language: en-US
+URL: https://github.com/whjelmar/rolemapr
+BugReports: https://github.com/whjelmar/rolemapr/issues
