@@ -3,7 +3,7 @@ pkgdown: 2.0.6
 pkgdown_sha: ~
 articles:
   introduction: introduction.html
-last_built: 2022-08-05T03:35Z
+last_built: 2022-08-05T03:37Z
 urls:
   reference: https://whjelmar.github.io/rolemapr/reference
   article: https://whjelmar.github.io/rolemapr/articles
