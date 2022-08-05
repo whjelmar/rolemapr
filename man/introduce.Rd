@@ -28,5 +28,6 @@ Describe basic information for input data.
 }
 \examples{
 introduce(data_governance_raci)
+
 }
 \keyword{introduce}

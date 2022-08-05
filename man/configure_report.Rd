@@ -101,6 +101,7 @@ configure_report()
 
 ## Set global theme
 configure_report(global_ggtheme = quote(theme_light(base_size = 20L)))
+
 }
 \seealso{
 \link{create_report}

@@ -20,4 +20,5 @@ Group a dataset by a field and provide the counts of each group
 }
 \examples{
 counts_fields(practice_data, practice_area)
+
 }
