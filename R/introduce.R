@@ -19,9 +19,7 @@
 #' @importFrom stats complete.cases
 #' @importFrom utils object.size
 #' @export introduce
-#' @examples
-#' introduce(data_governance_raci)
-#'
+
 introduce <- function(data) {
   ## Check and set to tibble
   is_tibble <- is_tibble(data)

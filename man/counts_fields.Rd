@@ -19,5 +19,13 @@ counts the results
 Group a dataset by a field and provide the counts of each group
 }
 \examples{
-counts_fields(practice_data, practice_area)
+library(rolemapr)
+library(tibble)
+
+practice_data <- tribble(
+   ~practice_area, ~role,
+   "Test area", "Test Role",
+ )
+counts_fields(practice_data, "practice_area")
+
 }

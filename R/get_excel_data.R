@@ -15,10 +15,8 @@
 #' the file.  The default is 0. This allows the user to deal with files that have
 #' rows that contain data that we do not wish to use in our analysis.
 #'
-#' @examples
-#' get_excel_data("data/sample_target_operating_model.xlsx", "Practices Areas", 2)
-#' get_excel_data("data/sample_target_operating_model.xlsx", "Practices Areas")
 #' @importFrom readxl read_excel
+#' @export
 
 get_excel_data <- function(file, sheet_name = "Sheet1", skip_rows = 0) {
   readxl::read_excel(file, sheet = {{ sheet_name }}, skip = {{ skip_rows }})

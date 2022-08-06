@@ -71,9 +71,10 @@ library(rmarkdown)
 diamonds2 <- tibble(diamonds)
 for (j in 5:ncol(diamonds2)) {
   set(diamonds2,
-      i = sample.int(nrow(diamonds2), sample.int(nrow(diamonds2), 1)),
-      j,
-      value = NA_integer_)
+    i = sample.int(nrow(diamonds2), sample.int(nrow(diamonds2), 1)),
+    j,
+    value = NA_integer_
+  )
 }
 
 # Create customized report for diamonds2 dataset
@@ -114,6 +115,7 @@ config <- list(
   "plot_scatterplot" = list(sampled_rows = 1000L)
 )
 }
+
 }
 \seealso{
 \link{configure_report}

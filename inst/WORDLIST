@@ -1,4 +1,5 @@
 Acknowledgements
+CMD
 DataExplorer
 Lessions
 README
@@ -9,6 +10,7 @@ lifecycle
 magrittr
 num
 occurances
+ORCID
 readme
 readxl
 tibble
